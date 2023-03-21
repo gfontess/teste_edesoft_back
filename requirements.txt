@@ -1,0 +1,3 @@
+aws-lambda-pandas
+pymysql
+boto3
