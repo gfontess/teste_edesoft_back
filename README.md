@@ -17,8 +17,6 @@ Conta na AWS com permissões para criar lambdas, S3 e acesso a um banco de dados
 
 7. Na configuração da função lambda, escolha o tempo de execução, que deve ser o mesmo utilizado no arquivo lambda_function.py. Também será necessário criar uma role que permita que a função tenha acesso aos serviços utilizados.
 
-8. No editor de código da função, cole o conteúdo do arquivo lambda_function.py.
+8. Clique em "Teste" e preencha os parâmetros bucket_name e object_key com o nome do bucket e o caminho do arquivo no S3.
 
-9. Clique em "Teste" e preencha os parâmetros bucket_name e object_key com o nome do bucket e o caminho do arquivo no S3.
-
-10. Clique em "Testar" e aguarde o resultado.
+9. Clique em "Testar" e aguarde o resultado.
